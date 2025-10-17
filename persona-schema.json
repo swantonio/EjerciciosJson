@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/persona.schema.json",
+  "title": "Persona",
+  "description": "Esquema para validar información básica de una persona.",
+  "type": "object",
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "description": "Nombre completo de la persona"
+    },
+    "edad": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Edad en años"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Correo electrónico válido"
+    },
+    "direccion": {
+      "type": "object",
+      "properties": {
+        "calle": { "type": "string" },
+        "ciudad": { "type": "string" },
+        "codigoPostal": { "type": "string", "pattern": "^[0-9]{5}$" }
+      },
+      "required": ["calle", "ciudad"]
+    },
+    "aficiones": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    }
+  },
+  "required": ["nombre", "edad", "email"],
+  "additionalProperties": false
+}

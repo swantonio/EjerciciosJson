@@ -1,0 +1,12 @@
+{
+  "$schema": "persona.schema.json",
+  "nombre":"Antonio de la Torre Moreno",
+  "edad": 22,
+  "email": "antonio13dltm@gmail.com",
+  "direccion": {
+    "calle": "Plaza Tabaleters",
+    "ciudad": "Castellón",
+    "codigoPostal": "12100"
+},
+"aficiones": ["Jugar al lol", "Jugar al furbo"]
+}
