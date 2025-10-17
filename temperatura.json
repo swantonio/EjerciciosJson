@@ -1,0 +1,26 @@
+{
+  "registro_temperatura": {
+    "provincia": "Zamora",
+    "fecha": "2022-01-07",
+    "temperatura_minima": "-5",
+    "temperatura_maxima": "4"
+  },
+  "incidencia": [
+    {
+      "nombre": "frio",
+      "severidad": "alta"
+    },
+    {
+      "nombre": "nieve",
+      "severidad": "media"
+    },
+    {
+      "nombre": "lluvia",
+      "severidad": "media"
+    }
+    ]
+  }
+
+
+
+
