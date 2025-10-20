@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "coche.schema.json",
+  "title": "coche",
+  "description": "Varios coches y su informacion",
+  "type": "object",
+  "properties": {
+    "Concesionario":{
+      "type": "object",
+      "description": "Concesionario donde se ubican los coches",
+      "properties": {
+        "vehiculo": {
+        "type" : "array",
+        "description": "Vehiculos que hay en el concesionario",
+        "items":{
+          "type": "object",
+          "properties": {
+            "marca": {
+              "type": "string",
+              "description": "Marca del coche"
+            },
+            "modelo": {
+              "type": "string",
+              "description": "Modelo del coche"
+            },
+            "motor": {
+              "type": "object",
+              "description": "Tipo de motor",
+              "properties": {
+                "combustible": {
+                  "type": "string",
+                  "description": "Tipo de motor gasolina o diesel"
+                },
+                "#text": {
+                  "type": "string",
+                  "description": "Modelo de motor"
+                }
+              },
+              "matricula": {
+                "type": "string",
+                "description": "Numero de matricula"
+              },
+              "km": {
+                "type": "integer",
+                "description": "Kilometros que lleva el coche"
+              }
+
+            }
+          }
+          }
+          }
+          }
+      }
+    }
+    },

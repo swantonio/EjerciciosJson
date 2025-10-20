@@ -14,18 +14,31 @@
           "type": "object",
           "properties": {
             "nombre": {
-              "type": "string",
+              "type": "array",
+              "items":{
+                "type": "string"
+
+              },
               "description": "Nombre propietario"
             },
             "apellido1": {
-              "type": ""
+              "type": "string",
+              "description": "Primer apellido"
 
+            },
+            "appelido2": {
+              "type": "string",
+              "description": "Segundo apellido"
             }
           }
+        },
+        "apodo": {
+          "type": "string",
+          "description": "Apodo del dueño"
         }
-
-}
-  }
-}
+      }
+    }
+  },
+  "required": ["apellido1"]
 }
 

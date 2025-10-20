@@ -9,16 +9,16 @@
           "#text": "Duratorc 1.4"
         },
         "matricula": "1234AAAA",
-        "km": "12500",
-        "precio_inicial": "12000",
-        "precio_oferta": "10000",
+        "km": 12500,
+        "precio_inicial": 12000,
+        "precio_oferta": 10000,
         "extra": [
           {
-            "@valor": "250",
+            "@valor": 250,
             "#text": "pintura metalizado"
           },
           {
-            "@valor": "300",
+            "@valor": 300,
             "#text": "llantas"
           }
         ],
@@ -35,16 +35,16 @@
           "#text": "Duratorc 1.4"
         },
         "matricula": "5678AAAA",
-        "km": "12500",
-        "precio_inicial": "12000",
-        "precio_oferta": "10000",
+        "km": 12500,
+        "precio_inicial": 12000,
+        "precio_oferta": 10000,
         "extra": [
           {
-            "@valor": "250",
+            "@valor": 250,
             "#text": "pintura metalizado"
           },
           {
-            "@valor": "300",
+            "@valor": 300,
             "#text": "llantas"
           }
         ],

@@ -1,4 +1,5 @@
 {
+  "$schema": "agenda.schema.json",
   "agenda": {
     "nombre_completo": {
       "nombre" : ["Luis", "Pepe"],

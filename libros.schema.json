@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "libros.schema.json",
+  "title": "libros",
+  "description": "Varios libros y su informacion",
+  "type": "object",
+  "properties": {
+    "libros":{
+      "type" : "array",
+      "description": "Informacion del libro",
+      "items":{
+        "type": "object",
+        "properties": {
+        "titulo": {
+          "type": "string",
+          "description": "Titulo del nombre"
+        },
+        "disponible": {
+          "type": "object",
+          "description": "Disponibilidad",
+          "properties": {
+            "tiempo": {
+              "type": "integer",
+              "description": "horas en la que esta disponible"
+            },
+            "unidad": {
+              "type": "string",
+              "description": "Unidad en la que esta expresado tiempo"
+            }
+          }
+        },
+        "autor": {
+          "type": "string",
+          "description": "Autor del libro"
+        },
+        "formato": {
+          "type": "string",
+          "description": "Formato del libro"
+        },
+        "publicacion": {
+          "type": "integer",
+          "description": "Fecha de publicación"
+        },
+        "precio": {
+          "type": "object",
+          "description": "Precio del libro",
+          "properties": {
+            "cantidad": {
+              "type": "number",
+              "description": "Cantidad de dinero que vale el libro"
+            },
+            "moneda": {
+              "type": "string",
+              "description": "Tipo de moneda"
+            }
+          }
+        },
+          "descuento":{
+            "type": "object",
+            "description": "Cantidad descuento",
+            "properties": {
+              "cantidad": {
+                "type": "number",
+                "description": "Cantidad de descuento"
+              }
+            }
+        },
+        "enlacelibro": {
+          "type": "object",
+          "description": "Enlace al libro",
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "dirección libro"
+            }
+          }
+        }
+      }
+    }
+    }
+}
+}
