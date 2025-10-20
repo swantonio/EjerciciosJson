@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "agenda.schema.json",
+  "title": "agenda",
+  "description": "Agenda de una persona",
+  "type": "object",
+  "properties": {
+    "agenda": {
+      "description": "Agenda de una persona",
+      "type": "object",
+      "properties": {
+        "nombre_completo": {
+          "description": "Nombre y apellido de propietario agenda",
+          "type": "object",
+          "properties": {
+            "nombre": {
+              "type": "string",
+              "description": "Nombre propietario"
+            },
+            "apellido1": {
+              "type": ""
+
+            }
+          }
+        }
+
+}
+  }
+}
+}
+

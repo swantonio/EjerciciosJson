@@ -1,8 +1,7 @@
 {
   "agenda": {
     "nombre_completo": {
-      "nombre": "Pepe",
-      "nombre" : "Luis",
+      "nombre" : ["Luis", "Pepe"],
       "apellido1" : "Gonzalez",
       "apellido2" : ""
     },
