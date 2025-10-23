@@ -35,10 +35,10 @@
         "apodo": {
           "type": "string",
           "description": "Apodo del dueño"
-        }
+        },
+        "required": ["apellido1"]
       }
     }
-  },
-  "required": ["apellido1"]
+  }
 }
 

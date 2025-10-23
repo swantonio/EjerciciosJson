@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "temperatura.schema.json",
+  "title": "temperatura",
+  "description": "Registros de temperatura y su informacion",
+  "type": "object",
+  "properties": {
+    "registro_temperatura": {
+      "type": "object",
+      "description": "Datos de la temperatura en cierto lugar",
+      "properties": {
+        "provincia": {
+          "type": "string",
+          "description": "Provincia de la temperatura registrada"
+        },
+        "fecha": {
+          "type": "string",
+          "description": "Fecha de la temperatura registrada"
+        },
+        "temperatura_minima": {
+          "type": "integer",
+          "description": "Temperatura minima habida"
+        },
+        "temperatura_maxima": {
+          "type": "integer",
+          "description": "Temperatura maxima habida"
+        }
+      },
+      "incidencia": {
+        "description": "Cadena de incidencias habidas",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "nombre": {
+              "type": "string",
+              "enum": [
+                "frio",
+                "nieve",
+                "lluvia"
+              ],
+              "description": "Tipo de incidencia"
+            },
+            "severidad": {
+              "type": "string",
+              "enum": [
+                "alta",
+                "media",
+                "baja"
+              ],
+              "description": "Nivel de severidad de la incidencia"
+            }
+          },
+          "required": [
+            "nombre",
+            "severidad"
+          ]
+        }
+      }
+    }
+  }
+}
