@@ -26,17 +26,17 @@
               "description": "Primer apellido"
 
             },
-            "appelido2": {
+            "apellido2": {
               "type": "string",
               "description": "Segundo apellido"
             }
-          }
+          },
+          "required": ["apellido1"]
         },
         "apodo": {
           "type": "string",
           "description": "Apodo del dueño"
-        },
-        "required": ["apellido1"]
+        }
       }
     }
   }

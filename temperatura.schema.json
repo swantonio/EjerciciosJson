@@ -25,7 +25,8 @@
           "type": "integer",
           "description": "Temperatura maxima habida"
         }
-      },
+      }
+    },
       "incidencia": {
         "description": "Cadena de incidencias habidas",
         "type": "array",
@@ -59,4 +60,3 @@
       }
     }
   }
-}
