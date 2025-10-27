@@ -1,0 +1,10 @@
+---
+agenda:
+  nombre_completo:
+    nombre:
+      -Luis 
+      -Pepe
+    apellido1: Gonzalez
+    apellido2:
+  apodo: Pepito grillo
+...

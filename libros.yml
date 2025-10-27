@@ -1,0 +1,31 @@
+---
+libros:
+  -Cien años de soledad:
+    disponible:
+      tiempo: "24"
+      unidad: horas
+    autor: Gabriel Garcia Marquez
+    formato: Rústica
+    publicacion: "1967"
+    precio:
+      cantidad: "9,99"
+      moneda: euro
+    descuento:
+      cantidad: "5"
+    enlacelibro:
+      href: /exec/ISBN/84-473-0619-4
+  -CRONICA DE UNA MUERTE ANUNCIADA:
+    disponible:
+      tiempo: "24"
+      unidad: horas
+    autor: Gabriel Garcia Marquez
+    formato: Rústica
+    publicacion: "1981"
+    precio:
+      cantidad: "19.99"
+      moneda: euro
+    descuento:
+      cantidad: "5"
+    enlacelibro:
+      href: /exec/ISBN/978-84-397-2838-2
+...
