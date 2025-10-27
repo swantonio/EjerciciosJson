@@ -35,7 +35,8 @@
                   "type": "string",
                   "description": "Modelo de motor"
                 }
-              },
+              }
+            },
               "matricula": {
                 "type": "string",
                 "description": "Numero de matricula"
@@ -43,8 +44,37 @@
               "km": {
                 "type": "integer",
                 "description": "Kilometros que lleva el coche"
+              },
+              "precio_inicial": {
+                "type": "integer",
+                "description": "Precio inicial del vehiculo"
+              },
+            "precio_oferta": {
+              "type": "integer",
+              "description": "Precio ofertado del vehiculo"
+            },
+            "extra": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "@valor": {
+                    "type": "integer",
+                    "description": "Valor del extra"
+                  },
+                  "#text": {
+                    "type": "string",
+                    "description": "Nombre del extra"
+                  }
+                }
               }
-
+            },
+            "foto": {
+              "type": "array",
+              "items":{
+                "type": "string",
+                "description": "Imagenes sobre el vehiculo"
+              }
             }
           }
           }
