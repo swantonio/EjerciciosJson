@@ -1,0 +1,45 @@
+{
+  "app": {
+    "nombre": "Gestor de Tareas",
+    "version": "2.3.1",
+    "entorno": "produccióin",
+    "base_datos": {
+      "tipo": "postgresql",
+      "host": "db.servidor.com",
+      "puerto" : 5432,
+      "usuario" : "admin",
+      "contraseña": "secreto",
+      "replicas": [
+        {
+          "host" : "replica1.servidor.com",
+          "puerto" : 5433
+        },
+        {
+          "host": "replica2.servidor.com",
+          "puerto" : 5434
+        }
+      ]
+},
+    "seguridad": {
+      "jwt": {
+        "secreto": "claveSuperSegura",
+        "expiracion": "2h"
+      },
+      "cors": {
+        "origenes_permitidos":  [
+          "https://frontend.com",
+          "https://admin.frontend.com"
+        ]
+      },
+      "metodos": ["GET", "POST", "PUT", "DELETE"]
+    },
+    "logs": {
+      "nivel": "info",
+      "archivo": "/var/logs/app.log",
+      "rotacion": {
+        "max_tamano_mb": 100,
+        "max_archivos": 10
+      }
+    }
+  }
+}

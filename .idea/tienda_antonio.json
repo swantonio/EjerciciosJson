@@ -1,0 +1,48 @@
+{
+  "tienda": {
+    "nombre": "ElectroShop",
+    "abierta": true,
+    "horario": {
+      "lunes_viernes": "09:00-20:00",
+      "sabado": "10:00-14:00",
+      "domingo": null
+    }
+  },
+    "productos":[
+      {
+        "id": "A100",
+        "nombre": "Portátil ASUS ZenBook",
+        "categoria": "Informatica",
+        "precio": 899.99,
+        "stock": 8,
+        "descuento": {
+          "activo": true,
+          "porcentaje": 10
+        }
+      },
+      {
+        "id": "B210",
+        "nombre": "Smartphone Samsung Galaxy",
+        "categoria": "Telefonia",
+        "precio": 499.0,
+        "stock": 15,
+        "descuento": null
+      },
+      {
+        "id": "C315",
+        "nombre": "Auriculares Sony WH-1000XM5",
+        "categoria": "Audio",
+        "precio": 299.99,
+        "stock": 5,
+        "descuento": {
+          activo: true,
+          porcentaje: 5
+        }
+      }
+    ],
+  "metodos_pago": ["tarjeta", "paypal", "transferencia"],
+  "envio": {
+    "gratuito_minimo": 50,
+    "paises": ["España", "Portugal", "Francia"]
+  }
+}

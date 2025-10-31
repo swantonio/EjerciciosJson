@@ -1,0 +1,33 @@
+{
+  "empresa": {
+    "nombre": "TechNova",
+    "sede": "Madrid",
+    "empleados": [
+      {
+        "id": 101,
+        "nombre": "Laura Gomez",
+        "puesto": "Desarrolladora Backend",
+        "habilidades": ["Python", "FastAPI", "PostgreSQL"],
+        "fecha_contratacion": "2020-05-14",
+        "activo": true
+      },
+      {
+        "id": 102,
+        "nombre": "Carlos Ruiz",
+        "puesto": "Administrador de Sistemas",
+        "habilidades": ["Linux", "Docker", "Ansible"],
+        "fecha_contratacion": "2018-09-01",
+        "activo": false,
+        "motivo_baja": "Cambio de empresa",
+      },
+      {
+        "id": 103,
+        "nombre": "Sara Martinez",
+        "puesto": "Analista de datos",
+        "habilidades": ["Pandas", "Power BI", "SQL"],
+        "fecha_contratacion": "2022-03-20",
+        "activo": true
+      }
+    ]
+  }
+}
