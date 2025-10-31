@@ -35,8 +35,8 @@
         "precio": 299.99,
         "stock": 5,
         "descuento": {
-          activo: true,
-          porcentaje: 5
+          "activo": true,
+          "porcentaje": 5
         }
       }
     ],
